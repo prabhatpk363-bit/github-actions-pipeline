@@ -4,20 +4,6 @@ rgs = {
     location = "South India"
   }
 
-  rg2 = {
-    name     = "prod-pk2"
-    location = "South India"
-  }
-  rg3 = {
-    name     = "prod-pk3"
-    location = "South India"
-  }
-
-  rg4 = {
-    name     = "prod-pk4"
-    location = "South India"
-  }
-
 
 }
 vnets = {
@@ -114,7 +100,7 @@ vms = {
     vnet_name             = "prod-vnet"
     pip_name              = "frontend-pip"
     vm_name               = "frontend-vm"
-    vm_size               = "Standard_D2a_v4"
+    vm_size               = "Standard_D4as_v5"
     admin_username        = "azureuser"
     admin_password        = "Ericsson@2026"
     disable_password      = false
@@ -135,7 +121,7 @@ vms = {
     vnet_name             = "prod-vnet"
     pip_name              = "backend-pip"
     vm_name               = "backend-vm"
-    vm_size               = "Standard_D2a_v4"
+    vm_size               = "Standard_D4as_v5"
     admin_username        = "azureuser"
     admin_password        = "Ericsson@2026"
     disable_password      = false
