@@ -5,11 +5,16 @@ rgs = {
   }
 
   rg2 = {
-    name     = "prod-pk1"
+    name     = "prod-pk2"
     location = "South India"
   }
   rg3 = {
-    name     = "prod-pk1"
+    name     = "prod-pk3"
+    location = "South India"
+  }
+
+  rg4 = {
+    name     = "prod-pk4"
     location = "South India"
   }
 
