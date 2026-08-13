@@ -24,7 +24,7 @@ module "network_security_group" {
   security_rules = var.security_rules
 }
 module "linux_virtual_machine" {
-  depends_on = [module.subnet, module.public_ip]
+  depends_on = [module.subnet,module.public_ip]
   source     = "../../modules/azurerm_virtual_machine"
   vms        = var.vms
 }
