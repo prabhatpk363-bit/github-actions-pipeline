@@ -10,9 +10,10 @@ rg2 = {
   }
 
   rg3 = {
-    name     = "prod-pk3pk"
-    location = "South India" 
+  name = "prod-pk3"
+  location = "South India"
   }
+
 
 }
 vnets = {
