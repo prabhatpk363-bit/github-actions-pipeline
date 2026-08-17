@@ -9,6 +9,11 @@ rg2 = {
     location = "South India"
   }
 
+  rg3 = {
+  name = "prod-pk3"
+  location = "South India"
+  }
+
 
 }
 vnets = {
