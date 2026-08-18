@@ -11,7 +11,7 @@ rgs = {
 
   rg3 = {
     name     = "prod-pk3"
-    location = "South India" 
+    location = "South India"
   }
 
 }
@@ -104,7 +104,7 @@ vms = {
     location              = "South India"
     rg_name               = "prod-pk1"
     ip_configname         = "internal"
-    private_ip_allocation = "Dynamic" 
+    private_ip_allocation = "Dynamic"
     subnet_name           = "frontend-subnet"
     vnet_name             = "prod-vnet"
     pip_name              = "frontend-pip"
