@@ -10,7 +10,7 @@ rgs = {
   }
 
   rg3 = {
-    name     = "prod-pk3"
+    name     = "prod-pk5"
     location = "South India"
   }
 
