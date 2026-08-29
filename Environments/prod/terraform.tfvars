@@ -111,7 +111,6 @@ vms = {
     vm_name               = "frontend-vm"
     vm_size               = "Standard_B2as_v2"
     admin_username        = "azureuser"
-    admin_password        = "Ericsson@2026"
     disable_password      = false
     caching               = "ReadWrite"
     storage_account_type  = "Standard_LRS"
@@ -119,6 +118,9 @@ vms = {
     offer                 = "0001-com-ubuntu-server-jammy"
     sku                   = "22_04-lts"
     version               = "latest"
+    resource_group_name   = "prod-pk"
+    kvname                = "pk-keyvault02"
+    secret_name           ="pksecret1"
   }
   vm2 = {
     nic_name              = "backend-nic"
@@ -132,7 +134,6 @@ vms = {
     vm_name               = "backend-vm"
     vm_size               = "Standard_B2as_v2"
     admin_username        = "azureuser"
-    admin_password        = "Ericsson@2026"
     disable_password      = false
     caching               = "ReadWrite"
     storage_account_type  = "Standard_LRS"
@@ -140,6 +141,10 @@ vms = {
     offer                 = "0001-com-ubuntu-server-jammy"
     sku                   = "22_04-lts"
     version               = "latest"
+    resource_group_name   = "prod-pk"
+    kvname                = "pk-keyvault02"
+    secret_name           ="pksecret1"
+
   }
 }
 

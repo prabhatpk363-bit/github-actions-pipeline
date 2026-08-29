@@ -19,7 +19,7 @@ for_each = var.vms
   location            = each.value.location
   size                =each.value.vm_size
   admin_username      = each.value.admin_username
-  admin_password = each.value.admin_password
+  admin_password = data.azurerm_key_vault_secret.this[each.key].value
   disable_password_authentication =each.value.disable_password
   network_interface_ids = [azurerm_network_interface.this[each.key].id]
   
